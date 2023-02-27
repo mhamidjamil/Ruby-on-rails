@@ -53,7 +53,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group production do
+group :production do
   # Use Postgres as the production database
   gem "pg"
 end
